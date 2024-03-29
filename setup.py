@@ -2,7 +2,7 @@ from setuptools import setup
 setup(
     name='pathermo',
     version='0.0.1',
-    author='Quan Zhang',
+    author='Quan Zhang, Shivani Kozarekar, William W. Sprague',
     description='Blank',
     long_description='This is a longer description for the project',
     url='https://github.com/dmdqy/pathermo',
