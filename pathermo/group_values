@@ -1,4 +1,16 @@
 // This file contains the group values for Hf. Each group starts with the base atom, followed by the number of its neighboring atoms, and each neighbor atoms. The neighboring atoms are sorted. The values are in kcal/mol, gas phase at 298 K standard condition.
+// Abbreviations:
+// "CO":     *-C(=O)-*    
+// "CO.":    *-C(=O)  radical
+// "SO":     *-S(=O)-*
+// "So":     *-S(=O)(=O)-*
+// "No":     *-NO2
+// "NO":     *-N=O
+// "CS":     *-C(=S)-*
+// "PO":     *-P(=O)(-*)-*   
+// "CN":     *-C#N
+// "Nco":    *-N=C=O, isocyanate group
+
 
 // reference [1]
 C 4 C H H H -10.2
