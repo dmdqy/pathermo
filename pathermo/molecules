@@ -1,1 +1,54 @@
-// This file contains Hf of molecules. 
+// This file contains Hf of molecules. SMILES must be RDKit canonical SMILES.
+
+// Reference [1]
+O -57.7978 # water
+C -17.89 # methane
+N -10.98 # ammonia
+Br -8.674 # hydrogen bromide
+BrBr 0.0 # bromine
+O=C=O -94.051 # carbon dioxide
+[H][H] 0.0 # hydrogen
+O=O 0.0 # oxygen
+[O]O 0.5 # hydroperoxy radical
+[OH] 9.319 # hydroxyl radical
+C=CC 4.879 # 1-propene
+CCC -25.02 # propane
+C=C=CC 38.77 # 1-2-butadiene
+C=CC=C 26.00 # 1-3-butadiene
+C=CCC -0.15 # 1-butene
+C=C(C)C -4.29 # 2-methylpropene
+CC(C)C -32.07 # 2-methylpropane
+CCCC -30.03 # butane
+O=CF -90 # formyl fluoride
+O=NO -18.34 # Nitrous acid
+O=[N+]([O-])O -32.101 # Nitric acid
+N#N 0 # Nitrogen
+S -4.9 # Hydrogen sulfide
+N=O 23.8 # Nitrosyl hydride
+O=S=O -70.939 # Sulfur dioxide
+NC(N)=S 5.47 # Thiourea
+ClSCl -4.199 # Sulfur dichloride
+O=[N+][O-] 7.911 # Nitrogen dioxide
+[N-]=[N+]=O 19.61 # Nitrous oxide
+O=NBr 19.63 # Nitrosyl bromide
+C#N 32.299 # Hydrogen cyanide
+N#CBr 44.500 # Cyanogen bromide
+S=C=S 27.949 # Carbon disulfide
+O=C=S -33.081 # Carbonyl sulfide
+O=S(=O)=O -94.591 # Sulphur trioxide
+O=C(Cl)Cl -52.6 # Phosgene
+[C-]#[O+] -26.4173 # Carbon monoxide
+CBr 122.00 # Bromomethylidyne
+Cl -22.06 # Hydrogen chloride
+N=C=O -24.3 # Isocyanic acid
+[N]=O 21.58 # Nitric oxide
+ClCl 0 # Chlorine
+ClC(Cl)Cl -24.661 # Trichloromethane
+CCl -20.00 # Chloromethane
+ClCCl -22.83 # Methylene chloride
+ClC(Cl)(Cl)Cl -25 # Carbon Tetrachloride
+[CH]=O 10.40 # Formyl radical
+C=C=O -20.85 # Ketene
+
+// References
+// [1] P.J. Linstrom and W.G. Mallard, Eds., NIST Chemistry WebBook, NIST Standard Reference Database Number 69, National Institute of Standards and Technology, Gaithersburg MD, 20899, https://doi.org/10.18434/T4D303, (retrieved March 29, 2024).
