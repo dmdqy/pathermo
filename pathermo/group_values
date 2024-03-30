@@ -1,1 +1,136 @@
+// This file contains the group values for Hf. Each group starts with the base atom, followed by the number of its neighboring atoms, and each neighbor atoms. The neighboring atoms are sorted. The values are in kcal/mol, gas phase at 298 K standard condition.
 
+// reference [1]
+C 4 C H H H -10.2
+C 4 C C H H -4.93
+C 4 C C C H -1.9
+C 4 C C C C 0.5
+C 4 H H H S -10.08
+C 4 C C C SO -3.05
+SO 2 C C -14.41
+SO 2 CB CB -12.0
+C 4 C C H So -2.62
+C 4 CB H H So -5.54
+So 2 N N -31.56
+CB 1 I 22.5
+C 4 CB H H I 8.4
+C 4 H H I O 3.8
+C 4 C H No No -14.9
+O 2 C CN 2.0
+C 4 H H H N -10.08
+NI 1 CB 16.7
+CD 2 CN CN 34.1
+O 2 H H -57.8
+CO 2 CT H -29.1
+CO 2 C CB -30.9
+C 4 CB H H O -8.1
+C 4 CT H H O -6.5
+CD 2 CD CD 4.6
+CA 0 34.20
+
+// reference [2]
+C 4 CD H H O -6.5
+
+// reference [3] page 113 
+C 4 H H H SO	-10.08
+C 4 C H H SO	-6.97    
+C 4 C C H SO	-5.09
+C 4 C C C SO	-2.22
+C 4 CD H H SO	-6.59
+CB 1 SO	3.70
+SO 2 C C	-16.00    
+SO 2 C CB	-17.21
+SO 2 CB CB	-16.00
+SO 2 O O	-50.91
+O 2 H SO	-37.91
+O 2 C SO	-22.13
+C 4 H H H So	-10.08
+C 4 C H H So	-7.67
+C 4 C C H So	-4.48
+C 4 C C C So	-0.50
+C 4 CD H H So	-7.05
+C 4 C CD H So	-17.21
+C 4 CT H H So	3.91
+C 4 CB H H So	-7.12
+CT 1 So	42.33
+CB 1 So	3.70
+CD 2 C So	15.30
+CD 2 H So	12.36
+So 2 C C	-69.00
+So 2 C CD	-75.72
+So 2 C CB	-69.10
+So 2 CD CD	-73.30
+So 2 CB CD	-70.82
+So 2 CB CT	-70.82
+So 2 CB CB	-70.82
+So 2 CB So	-77.72
+So 2 O O	-99.74    
+O 2 H So	-37.91
+O 2 C So	-21.85
+O 2 So So	-0.96
+O 2 O So	0.72
+
+// reference [4]
+S 2 C O -0.8
+SO 2 CD CD -53.3
+SO 2 CD H -31.3
+SO 2 H O -25.4
+SO 2 O O -50.3
+SO 2 O S -29.9
+SO 2 H S -13.9
+SO 2 S S -17.9
+So 2 H H -55.9
+So 2 H O -79.8
+So 2 O S -77.1
+So 2 H S -58.1
+So 2 S S -60.0
+O 2 C S -22.6
+O 2 CS H -47.6
+O 2 H S -36.3
+O 2 O S -3.3    
+CS 2 C H 24.1
+CS 2 H H 27.7
+CS 2 H O 19.1
+CS 2 C CB 23.6
+CS 2 C CD 23.8
+CS 2 CD H 24.8
+CS 2 C C 20.9
+CS 2 C O 11.7
+CS 2 C S 26.8
+CS 2 O O 9.7
+CS 2 O S 36.9
+CS 2 H S 30.2
+CD 2 H SO 27.6
+C 4 CS H H H -7.1
+C 4 C C C CS 4.4
+C 4 C C CS H 2.3
+C 4 C CS H H -1.7
+So 2 C O -95.5
+SO 2 C O -46.8
+
+// reference [5]
+CT 1 Br 37.28
+
+// reference [6]
+C 4 C H H NI -2.9
+C 4 H H H NI -5.7
+
+// reference [7]
+C 4 H H H No -17.89
+C 4 H H No No -14.07
+C 4 H No No No -0.07
+C 4 No No No No 19.67
+CO 2 Br C -35.50
+
+
+
+END
+
+References
+[1] Benson, Sidney William. "Thermochemical kinetics: methods for the estimation of thermochemical data and rate parameters." (1976).
+[2] Eigenmann, H. K., D. M. Golden, and S. W. Benson. "Revised group additivity parameters for the enthalpies of formation of oxygen-containing organic compounds." The Journal of Physical Chemistry 77, no. 13 (1973): 1687-1691.
+[3] Patai, Saul, Zvi Rappoport, and Charles James Matthew Stirling. "The chemistry of sulphones and sulphoxides." (1988).
+[4] Gillis, Ryan J., and William H. Green. "Thermochemistry prediction and automatic reaction mechanism generation for oxygenated sulfur systems: A case study of dimethyl sulfide oxidation." ChemSystemsChem 2, no. 4 (2020): e1900051.
+[5] Holmes, John L., and Christiane Aubry. "Group additivity values for estimating the enthalpy of formation of organic compounds: an update and reappraisal. 2. C, H, N, O, S, and halogens." The Journal of Physical Chemistry A 116, no. 26 (2012): 7196-7209.
+[6] Ashcraft, Robert W., and William H. Green. "Thermochemical properties and group values for nitrogen-containing molecules." The Journal of Physical Chemistry A 112, no. 38 (2008): 9144-9152.
+[7] Domalski, Eugene S., and Elizabeth D. Hearing. "Estimation of the thermodynamic properties of C‐H‐N‐O‐S‐halogen compounds at 298.15 K." Journal of Physical and Chemical Reference Data 22, no. 4 (1993): 805-1159.
