@@ -65,4 +65,4 @@ In rare cases where a molecules is entirely made of groups that are not independ
 
 
 ## References
-Benson, Sidney William. "Thermochemical kinetics: methods for the estimation of thermochemical data and rate parameters." (No Title) (1976).
+Benson, Sidney William. "Thermochemical kinetics: methods for the estimation of thermochemical data and rate parameters." (1976).
