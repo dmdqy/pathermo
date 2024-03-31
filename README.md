@@ -8,7 +8,6 @@ This code is designed for predicting the standard enthalpy of formation using th
 
 rdkit >= 2023.03.2
 
-pandas
 
 
 
