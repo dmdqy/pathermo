@@ -45,8 +45,8 @@ In case the code is updated, you may use git pull to update yours to the latest 
 pgthermo takes SMILES of a molecule or radical as input, and returns the gas-phase data of standard enthalpy of formation.
 ```
    >> from pathermo.properties import Hf
-   >> Hf("CCC")
-   0
+   >> Hf("C1CCCCC1")
+   -29.58
 ```
 If returns ```None```, it means the primary_groups file is missing one or more groups for your input molecule.
 
@@ -54,7 +54,7 @@ If returns ```None```, it means the primary_groups file is missing one or more g
 Optional flag: to see what groups are missing for an unsupported molecule, add the ```return_missing_groups = True ``` flag. It will return a list of missing groups if the molecule is unsupported.
 ```
    >> Hf("C#CO", return_missing_groups = True)
-   ['CT 1 O', 'O 2 CT H']
+   ['CT 1 H', 'CT 1 O', 'O 2 CT H']
 ```
 
 In rare cases where a molecules is entirely made of groups that are not independent, it will return ```None``` and the ```return_missing_groups = True ``` flag won't take effect. In such special cases the data of the molecule can be added to the user_properties file if needed.
