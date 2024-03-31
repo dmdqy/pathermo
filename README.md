@@ -65,4 +65,10 @@ In rare cases where a molecules is entirely made of groups that are not independ
 
 
 ## References
-Benson, Sidney William. "Thermochemical kinetics: methods for the estimation of thermochemical data and rate parameters." (1976).
+[1] Benson, Sidney William. "Thermochemical kinetics: methods for the estimation of thermochemical data and rate parameters." (1976).  
+[2] Eigenmann, H. K., D. M. Golden, and S. W. Benson. "Revised group additivity parameters for the enthalpies of formation of oxygen-containing organic compounds." The Journal of Physical Chemistry 77, no. 13 (1973): 1687-1691.  
+[3] Patai, Saul, Zvi Rappoport, and Charles James Matthew Stirling. "The chemistry of sulphones and sulphoxides." (1988).  
+[4] Gillis, Ryan J., and William H. Green. "Thermochemistry prediction and automatic reaction mechanism generation for oxygenated sulfur systems: A case study of dimethyl sulfide oxidation." ChemSystemsChem 2, no. 4 (2020): e1900051.  
+[5] Holmes, John L., and Christiane Aubry. "Group additivity values for estimating the enthalpy of formation of organic compounds: an update and reappraisal. 2. C, H, N, O, S, and halogens." The Journal of Physical Chemistry A 116, no. 26 (2012): 7196-7209.  
+[6] Ashcraft, Robert W., and William H. Green. "Thermochemical properties and group values for nitrogen-containing molecules." The Journal of Physical Chemistry A 112, no. 38 (2008): 9144-9152.  
+[7] Domalski, Eugene S., and Elizabeth D. Hearing. "Estimation of the thermodynamic properties of C‐H‐N‐O‐S‐halogen compounds at 298.15 K." Journal of Physical and Chemical Reference Data 22, no. 4 (1993): 805-1159.  
