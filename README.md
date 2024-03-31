@@ -1,7 +1,6 @@
 # pathermo
 
-This code is designed for predicting the standard enthalpy of formation using the Benson group-increment theory. 'pathermo' is a sanitized version of 'pgthermo', originally developed and utilized internally within the Broadbelt group at Northwestern University. 'pathermo' includes a restricted selection of published Benson group values. Users have the flexibility to incorporate their own group values for their specific requirements.
-
+This code is designed for predicting the standard enthalpy of formation using the Benson group-increment theory. 'pathermo' is a sanitized version of 'pgthermo', originally developed and utilized internally within the Broadbelt group at Northwestern University. 'pathermo' includes a restricted selection of published group additivity values. Users have the flexibility to incorporate their own group values for their specific requirements. The group additivity values are stored in the file "group_values". For small molecules, their enthalpy values are stored in the file "molecules".
 
 
 
@@ -67,9 +66,15 @@ In rare cases where a molecule is entirely made of groups that are not independe
    None
 ```
 
+## Developers
+Quan Zhang  
+Shivani Kozarekar  
+William W. Sprague  
+
 
 ## References
 All data included in the group_values and molecules files are from published literature and are cited.
+
 [1] Benson, Sidney William. "Thermochemical kinetics: methods for the estimation of thermochemical data and rate parameters." (1976).  
 [2] Eigenmann, H. K., D. M. Golden, and S. W. Benson. "Revised group additivity parameters for the enthalpies of formation of oxygen-containing organic compounds." The Journal of Physical Chemistry 77, no. 13 (1973): 1687-1691.  
 [3] Patai, Saul, Zvi Rappoport, and Charles James Matthew Stirling. "The chemistry of sulphones and sulphoxides." (1988).  
